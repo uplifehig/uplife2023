@@ -1,0 +1,65 @@
+.social-bg {
+  background-color: var(--cor-fundo);
+  padding: 50px 0px;
+}
+.js .social h2 {
+  text-align: center;
+}
+.js .social .slide-wrapper {
+  overflow: hidden;
+}
+.js .social .slide {
+  display: flex;
+  gap: 10px;
+  flex-wrap: initial;
+}
+.js .social .slide:hover {
+  will-change: transform;
+}
+.social .slide li img {
+  width: 100vw;
+}
+.js .social .slide li {
+  width: 35vw;
+  flex-shrink: 0;
+  max-width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0.2px, 4px rgba(0, 0, 0, 0.4);
+  opacity: 0.8;
+  transform: scale(0.8);
+  transition: 0.4s;
+}
+.js .social .slide li.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.js .social [data-control="slide"] {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.js .social [data-control="slide"] li a {
+  width: 12px;
+  height: 12px;
+  background: var(--cor-p2);
+  border-radius: 50%;
+  overflow: hidden;
+  text-indent: -999px;
+  margin-right: 5px;
+}
+.js .social [data-control="slide"] li.active a,
+.js .social [data-control="slide"] li a:hover {
+  background: var(--cor-p5);
+}
+.js .social .arrow-nav {
+  display: none;
+}
+@media (max-width: 600px) {
+  .js .social .slide li {
+    width: 75vw;
+  }
+  .js .social .slide li img {
+    width: 75vw;
+  }
+}

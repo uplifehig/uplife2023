@@ -1,0 +1,43 @@
+main {
+  background-image: url("../../imagens/introducao/introducao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0px;
+  transition: 3s;
+  animation: animarImage 10s infinite alternate;
+}
+@keyframes animarImage {
+  0% {
+    background-image: url("../../imagens/introducao/introducao2.png");
+  }
+  25% {
+    background-image: url("../../imagens/introducao/introducao.png");
+  }
+  50% {
+    background-image: url("../../imagens/introducao/introducao2.png");
+  }
+  75% {
+    background-image: url("../../imagens/introducao/introducao2.png");
+  }
+}
+.js .introducao h1 {
+  max-width: 20ch;
+  margin-bottom: 16px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.js .introducao a {
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 600px) {
+  .introducao-bg {
+    background-position: right bottom;
+  }
+  .js .introducao a {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

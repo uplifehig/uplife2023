@@ -1,0 +1,22 @@
+.js .bonus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px 0;
+}
+.js .bonus .bonus-conteudo {
+  max-width: 45ch;
+}
+@media (max-width: 600px) {
+  .js .bonus .bonus-imagem {
+    margin-bottom: 20px;
+  }
+  .js .bonus .bonus-imagem img {
+    width: 150px;
+  }
+  .js .bonus .bonus-conteudo {
+    text-align: center;
+  }
+}

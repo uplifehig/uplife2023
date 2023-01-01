@@ -1,0 +1,18 @@
+/** Utilidades */
+@import "./utilidades/componentes.css";
+@import "./utilidades/variaveis.css";
+/** Global */
+@import "./global/global.css";
+@import "./global/header.css";
+/** Introdução  */
+@import "./introducao/introducao.css";
+/** Social */
+@import "./social/social.css";
+/** Depoimentos */
+@import "./depoimentos/depoimentos.css";
+/** Bonus */
+@import "./bonus/bonus.css";
+/** Especialidade */
+@import "./especialidade/especialidade.css";
+/** Escolha */
+@import "./escolha/escolha.css";

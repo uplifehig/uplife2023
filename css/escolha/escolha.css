@@ -1,0 +1,33 @@
+.js .escolha-bg {
+  background-image: url("../../imagens/escolha/IMG_7215.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  padding: 50px 0px;
+}
+.js .escolha h2 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.js .escolha ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.js .escolha ul li {
+  background-color: var(--cor-white);
+  max-width: 45ch;
+  padding: 20px;
+  border-radius: 4px;
+  flex: 1;
+}
+.js .escolha span {
+  font-weight: 600;
+}
+@media (max-width: 600px) {
+  .js .escolha ul li {
+    flex: initial;
+    text-align: center;
+  }
+}
